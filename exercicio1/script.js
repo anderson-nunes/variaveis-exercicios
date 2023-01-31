@@ -21,21 +21,11 @@
 
 //Parte 2
 
-// let idade = prompt("Quantos anos você tem?");
-// let local = prompt("Aonde você mora?");
-// let cor = prompt("Qual a sua cor favorita?");
+const perguntaA = "Você esta usando uma camisa azul hoje?";
+const respostaA = prompt(perguntaA);
 
-// console.log(idade, local, cor);
+const nome = "Qual é o seu nome?";
+const nomeResposta = prompt(nome);
 
-// idade = 38;
-// local = "Porto Alegre";
-// cor = "Amarela";
-
-// const respostaA = prompt(idade);
-// console.log(respostaA);
-
-// const respostaB = prompt(local);
-// console.log(respostaB);
-
-// const respostaC = prompt(cor);
-// console.log(respostaC);
+console.log(respostaA);
+console.log(nomeResposta);
